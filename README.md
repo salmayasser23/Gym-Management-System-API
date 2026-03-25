@@ -93,7 +93,7 @@ A member can enroll in multiple class sessions, and a class session can contain 
 Used to build RESTful endpoints and handle HTTP requests and responses.
 
 ### Entity Framework Core
-Used as the ORM for mapping entities to the database, managing relationships, and creating migrations.
+Used as the ORM (Object-Relational Mapping) for mapping entities to the database, managing relationships, and creating migrations.
 
 ### PostgreSQL
 Used as the relational database system for storing application data.
