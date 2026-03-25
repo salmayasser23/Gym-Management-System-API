@@ -489,10 +489,14 @@ The API was tested in Swagger using the following sequence:
 
 ### Swagger Home
 
-<img width="1906" height="865" alt="image" src="https://github.com/user-attachments/assets/35d198f1-b464-4531-983f-1cde103381ee" />
-<img width="1808" height="895" alt="image" src="https://github.com/user-attachments/assets/2f22b751-170a-4d58-a42e-b2e6581cb39b" />
-<img width="1798" height="897" alt="image" src="https://github.com/user-attachments/assets/ab7651e0-2c4c-4aa0-8cb5-93892df5870d" />
-<img width="1785" height="202" alt="image" src="https://github.com/user-attachments/assets/fed78e26-2cf3-44bc-8638-6448e714a69b" />
+<img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/618d0974-ed1d-46aa-9796-3c929552100b" />
+<img width="1901" height="903" alt="image" src="https://github.com/user-attachments/assets/8cb64813-a30c-4ed1-b521-24d6e858515a" />
+<img width="1899" height="894" alt="image" src="https://github.com/user-attachments/assets/ac34f511-0ec8-4d3e-ab0f-35803108ee10" />
+<img width="1901" height="217" alt="image" src="https://github.com/user-attachments/assets/42a9c497-f2ae-44bb-9c0b-535ffb357532" />
+
+
+
+
 
 
 
@@ -500,19 +504,29 @@ The API was tested in Swagger using the following sequence:
 
 ### Login Success
 
-![Login Success](docs/screenshots/login-success.png)
+<img width="1791" height="797" alt="Screenshot 2026-03-25 024224" src="https://github.com/user-attachments/assets/e30d163a-fa60-40d6-91d1-2765af7d6376" />
+<img width="1774" height="839" alt="Screenshot 2026-03-25 024248" src="https://github.com/user-attachments/assets/a8cad628-8015-4aea-a76b-971106e6234e" />
+
+
 
 ### Authorized Trainers Endpoint
 
-![Authorized Trainers](docs/screenshots/authorized-trainers.png)
+<img width="808" height="351" alt="image" src="https://github.com/user-attachments/assets/36456616-f03c-483f-8b56-c8ffda432d54" />
+
 
 ### Create Trainer
 
-![Create Trainer](docs/screenshots/create-trainer.png)
+<img width="1781" height="797" alt="Screenshot 2026-03-25 024528" src="https://github.com/user-attachments/assets/c3989d95-ff05-4f65-923e-617d5bb94dd5" />
+<img width="1790" height="909" alt="Screenshot 2026-03-25 024550" src="https://github.com/user-attachments/assets/0b59f0eb-3a63-45af-89d8-121340d1bac2" />
+
+
 
 ### Create Trainer Profile
 
-![Create Trainer Profile](docs/screenshots/create-trainerprofile.png)
+<img width="1788" height="797" alt="Screenshot 2026-03-25 024932" src="https://github.com/user-attachments/assets/aa6e9007-ce20-4593-a225-54576dc74686" />
+<img width="1777" height="788" alt="Screenshot 2026-03-25 024703" src="https://github.com/user-attachments/assets/ba3abb5d-4f27-4dad-8424-e16f2ed5d7a7" />
+
+
 
 ### Create Member
 
