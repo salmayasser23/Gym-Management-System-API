@@ -486,11 +486,17 @@ The API was tested in Swagger using the following sequence:
 
 ## Screenshots
 
-Create a folder named `docs/screenshots` in the repository, then place your screenshots there using the same file names below.
 
 ### Swagger Home
 
-![Swagger Home](docs/screenshots/swagger-home.png)
+<img width="1906" height="865" alt="image" src="https://github.com/user-attachments/assets/35d198f1-b464-4531-983f-1cde103381ee" />
+<img width="1808" height="895" alt="image" src="https://github.com/user-attachments/assets/2f22b751-170a-4d58-a42e-b2e6581cb39b" />
+<img width="1798" height="897" alt="image" src="https://github.com/user-attachments/assets/ab7651e0-2c4c-4aa0-8cb5-93892df5870d" />
+<img width="1785" height="202" alt="image" src="https://github.com/user-attachments/assets/fed78e26-2cf3-44bc-8638-6448e714a69b" />
+
+
+
+
 
 ### Login Success
 
