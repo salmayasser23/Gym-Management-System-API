@@ -101,7 +101,7 @@ Used as the relational database system for storing application data.
 ### ASP.NET Core Identity
 Used for user management, password hashing, and role handling.
 
-### JWT Bearer Authentication
+### JWT (JSON Web Token) Bearer Authentication
 Used to secure endpoints with token-based authentication.
 
 ### Swagger / Swashbuckle
