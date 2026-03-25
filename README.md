@@ -1,6 +1,6 @@
 # Gym Management System API
 
-A professional ASP.NET Core Web API for managing gym operations, including trainers, trainer profiles, members, class sessions, enrollments, authentication, and role-based access control.
+An ASP.NET Core Web API for managing gym operations, including trainers, trainer profiles, members, class sessions, enrollments, authentication, and role-based access control.
 
 ---
 
