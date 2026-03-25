@@ -19,7 +19,6 @@ An ASP.NET Core Web API for managing gym operations, including trainers, trainer
 - [Validation and Query Optimization](#validation-and-query-optimization)
 - [Why HTTP-only Cookies Are Commonly Used](#why-http-only-cookies-are-commonly-used)
 - [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
 
 ---
 
@@ -467,13 +466,4 @@ For this project, JWT bearer authentication was used because it is simple to tes
 
 ---
 
-## Future Enhancements
-
-* Refresh token support
-* Background jobs using Hangfire
-* More advanced role restrictions
-* Reporting and analytics endpoints
-* Frontend integration with a web or mobile client
-
----
 
