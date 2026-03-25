@@ -196,8 +196,7 @@ The application uses ASP.NET Core configuration files.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/salmayasser23/Gym-Management-System-API
-.git
+git clone https://github.com/salmayasser23/Gym-Management-System-API.git
 ```
 
 ### 2. Open the Project
