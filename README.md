@@ -111,9 +111,6 @@ Used to document and test API endpoints interactively.
 ### LINQ
 Used for querying, filtering, and projecting entities into DTOs.
 
-### Git and GitHub
-Used for version control and source code hosting.
-
 ### Visual Studio Code
 Used as the development environment.
 
