@@ -545,22 +545,3 @@ Create a folder named `docs/screenshots` in the repository, then place your scre
 
 ---
 
-## Author
-
-Your Name
-
-````
-
-After pasting it:
-
-1. Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME`
-2. Replace `Your Name`
-3. Create `docs/screenshots`
-4. Put your screenshots there
-5. Commit and push
-
-```bash
-git add .
-git commit -m "Add final professional README"
-git push
-````
