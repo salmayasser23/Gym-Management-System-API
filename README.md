@@ -21,7 +21,6 @@ A professional ASP.NET Core Web API for managing gym operations, including train
 - [Testing Workflow](#testing-workflow)
 - [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
-- [Author](#author)
 
 ---
 
