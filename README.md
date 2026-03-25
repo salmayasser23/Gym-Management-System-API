@@ -18,7 +18,6 @@ A professional ASP.NET Core Web API for managing gym operations, including train
 - [API Endpoint Documentation](#api-endpoint-documentation)
 - [Validation and Query Optimization](#validation-and-query-optimization)
 - [Why HTTP-only Cookies Are Commonly Used](#why-http-only-cookies-are-commonly-used)
-- [Testing Workflow](#testing-workflow)
 - [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
 
@@ -200,7 +199,8 @@ The application uses ASP.NET Core configuration files.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/salmayasser23/Gym-Management-System-API
+.git
 ```
 
 ### 2. Open the Project
@@ -384,22 +384,6 @@ For this project, JWT bearer authentication was used because it is simple to tes
 
 ---
 
-## Testing Workflow
-
-The API was tested in Swagger using the following sequence:
-
-1. `POST /api/Auth/login`
-2. Authorize using the returned token
-3. `GET /api/Trainers`
-4. `POST /api/Trainers`
-5. `POST /api/TrainerProfiles`
-6. `POST /api/Members`
-7. `POST /api/ClassSessions`
-8. `POST /api/Enrollments`
-9. Validation/error scenario testing
-
-
----
 
 ## Screenshots
 
@@ -426,7 +410,7 @@ The API was tested in Swagger using the following sequence:
 
 
 
-### Authorized Trainers Endpoint
+### Authorization
 
 <img width="808" height="351" alt="image" src="https://github.com/user-attachments/assets/36456616-f03c-483f-8b56-c8ffda432d54" />
 
