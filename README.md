@@ -45,3 +45,6 @@ GymManagementSystemAPI
 ├── appsettings.json
 ├── Program.cs
 └── GymManagementSystemAPI.csproj
+
+## Configuration
+Update the application configuration with your PostgreSQL credentials and JWT settings.
