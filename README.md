@@ -281,11 +281,11 @@ POST /api/Auth/login
 
 Role-based authorization is applied using the `[Authorize]` attribute and role restrictions on protected endpoints.
 
-Examples:
+### Current Role Access in This Project
 
-* Admin can manage core records
-* Trainer can access trainer/class-related endpoints
-* Member can access member/enrollment-related functionality depending on the controller configuration
+- **Admin** has full access to the main management endpoints.
+- **Trainer** can access trainer-related read endpoints, manage class sessions, and view enrollments for class sessions.
+- **Member** can access trainer and class session read endpoints and manage enrollments.
 
 ---
 
