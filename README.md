@@ -106,12 +106,3 @@ GymManagementSystemAPI
 ├── Program.cs
 └── GymManagementSystemAPI.csproj
 
-## Folder Responsibilities
-- Controllers: Expose API endpoints
-- Data: Contains AppDbContext and database initialization logic
-- DTOs: Request and response models
-- Entities: Database models
-- Helpers: JWT and service registration helpers
-- Interfaces: Service contracts
-- Migrations: EF Core migration files
-- Services: Business logic and database interaction
