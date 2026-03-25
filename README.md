@@ -524,33 +524,49 @@ The API was tested in Swagger using the following sequence:
 ### Create Trainer Profile
 
 <img width="1788" height="797" alt="Screenshot 2026-03-25 024932" src="https://github.com/user-attachments/assets/aa6e9007-ce20-4593-a225-54576dc74686" />
-<img width="1777" height="788" alt="Screenshot 2026-03-25 024703" src="https://github.com/user-attachments/assets/ba3abb5d-4f27-4dad-8424-e16f2ed5d7a7" />
+<img width="1777" height="905" alt="Screenshot 2026-03-25 024950" src="https://github.com/user-attachments/assets/ddadf6fe-6a3a-4088-a0f3-ade9c171ba7d" />
+
+
 
 
 
 ### Create Member
 
-![Create Member](docs/screenshots/create-member.png)
+<img width="1783" height="811" alt="Screenshot 2026-03-25 025603" src="https://github.com/user-attachments/assets/6fa7b50e-e530-4107-baa2-3c713f471b09" />
+<img width="1778" height="901" alt="Screenshot 2026-03-25 025624" src="https://github.com/user-attachments/assets/ba266911-db9c-44bc-b595-4652417d0f16" />
+
+
 
 ### Create Class Session
 
-![Create Class Session](docs/screenshots/create-classsession.png)
+<img width="1790" height="802" alt="Screenshot 2026-03-25 025750" src="https://github.com/user-attachments/assets/4b1fc47c-b10d-4c35-8dbf-697d67a0c291" />
+<img width="1779" height="870" alt="Screenshot 2026-03-25 025814" src="https://github.com/user-attachments/assets/fa178e86-505d-4672-a4ab-ce5850ff3fc5" />
+<img width="1772" height="155" alt="Screenshot 2026-03-25 025832" src="https://github.com/user-attachments/assets/5069a6b0-4fd3-4be2-9a49-5164038da305" />
+
+
+
+
 
 ### Create Enrollment
 
-![Create Enrollment](docs/screenshots/create-enrollment.png)
+<img width="1790" height="804" alt="Screenshot 2026-03-25 030015" src="https://github.com/user-attachments/assets/f90f5a81-7d45-4f64-b472-7264f4382604" />
+<img width="1776" height="836" alt="Screenshot 2026-03-25 030033" src="https://github.com/user-attachments/assets/d03b2b8a-3709-4cf4-b070-e2fa747cd08e" />
+
+
 
 ### Validation Error Example
 
-![Validation Error](docs/screenshots/validation-error.png)
+<img width="1790" height="809" alt="Screenshot 2026-03-25 030437" src="https://github.com/user-attachments/assets/2420ad4e-9fc6-4277-b05b-95d3ded66132" />
+<img width="1785" height="907" alt="Screenshot 2026-03-25 030450" src="https://github.com/user-attachments/assets/bb80e1f8-9d43-473e-90fd-975e3c6c5af5" />
+<img width="1773" height="136" alt="Screenshot 2026-03-25 030459" src="https://github.com/user-attachments/assets/8c40ceab-576c-4047-b29b-baddf48be46a" />
+
+
+
 
 ### Database Tables
 
-![Database Tables](docs/screenshots/database-tables.png)
+<img width="314" height="416" alt="image" src="https://github.com/user-attachments/assets/0923cf02-098c-44cf-8216-cd61974319f7" />
 
-### Database Rows Example
-
-![Database Rows Example](docs/screenshots/database-rows.png)
 
 ---
 
