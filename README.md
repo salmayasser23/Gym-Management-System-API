@@ -394,7 +394,6 @@ HTTP-only cookies improve security because:
 
 ### Swagger Home
 
-<img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/618d0974-ed1d-46aa-9796-3c929552100b" />
 <img width="1901" height="903" alt="image" src="https://github.com/user-attachments/assets/8cb64813-a30c-4ed1-b521-24d6e858515a" />
 <img width="1899" height="894" alt="image" src="https://github.com/user-attachments/assets/ac34f511-0ec8-4d3e-ab0f-35803108ee10" />
 <img width="1901" height="217" alt="image" src="https://github.com/user-attachments/assets/42a9c497-f2ae-44bb-9c0b-535ffb357532" />
