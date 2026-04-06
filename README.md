@@ -17,7 +17,7 @@ An ASP.NET Core Web API for managing gym operations, including trainers, trainer
 - [Authentication and Authorization](#authentication-and-authorization)
 - [API Endpoint Documentation](#api-endpoint-documentation)
 - [Validation and Query Optimization](#validation-and-query-optimization)
-- [Why HTTP-only Cookies Are Commonly Used](#why-http-only-cookies-are-commonly-used)
+- [Authentication with HTTP-only Cookies](#authentication-with-http-only-cookies)
 - [Screenshots](#screenshots)
 
 ---
@@ -26,7 +26,7 @@ An ASP.NET Core Web API for managing gym operations, including trainers, trainer
 
 Gym Management System API is a RESTful backend application built with ASP.NET Core Web API to support the core operations of a gym management platform.
 
-The system provides secure authentication, role-based authorization, structured request and response contracts through DTOs, database persistence using PostgreSQL, and interactive API documentation through Swagger.
+The system provides secure authentication using JWT access tokens stored in HTTP-only cookies, role-based authorization, structured request and response contracts through DTOs, database persistence using PostgreSQL, and interactive API documentation through Swagger.
 
 This API is designed to demonstrate clean backend structure, service-layer design, relational modeling, validation, and optimized data access using Entity Framework Core.
 
@@ -49,7 +49,7 @@ The application is designed as a backend service and can later be integrated wit
 
 ## Key Features
 
-- JWT-based authentication
+- JWT-based authentication using HTTP-only cookies
 - Role-based authorization using **Admin**, **Trainer**, and **Member**
 - CRUD operations for trainers
 - CRUD operations for trainer profiles
@@ -101,8 +101,8 @@ Used as the relational database system for storing application data.
 ### ASP.NET Core Identity
 Used for user management, password hashing, and role handling.
 
-### JWT (JSON Web Token) Bearer Authentication
-Used to secure endpoints with token-based authentication.
+### JWT (JSON Web Token) Authentication with HTTP-only Cookies
+Used to generate access tokens during login and store them in an HTTP-only cookie for authenticated requests.
 
 ### Swagger / Swashbuckle
 Used to document and test API endpoints interactively.
@@ -249,7 +249,7 @@ https://localhost:7043/swagger
 
 ## Authentication and Authorization
 
-The API uses JWT authentication.
+The API uses JWT authentication with the access token stored in an HTTP-only cookie.
 
 ### Login Endpoint
 
@@ -365,17 +365,30 @@ For clean and efficient data access:
 
 ---
 
-## Why HTTP-only Cookies Are Commonly Used
+## Authentication with HTTP-only Cookies
 
-Although this project uses JWT tokens in the `Authorization` header, HTTP-only cookies are commonly used as an industry standard because they help protect authentication tokens from JavaScript access. This reduces the risk of token theft through Cross-Site Scripting (XSS) attacks.
+This project uses JWT authentication with the access token stored in an HTTP-only cookie.
 
-In many secure web applications, HTTP-only cookies are preferred because:
+After a successful login:
 
-* they cannot be read directly by client-side JavaScript
-* they reduce exposure of sensitive authentication tokens
-* they can be combined with secure cookie settings and CSRF protection for stronger overall security
+* the server generates a JWT access token
+* the token is stored in an HTTP-only cookie
+* the token is not returned in the response body
+* protected endpoints read the token from the cookie during authentication
 
-For this project, JWT bearer authentication was used because it is simple to test in Swagger and suitable for demonstrating protected API endpoints.
+### Why this approach is used
+
+HTTP-only cookies improve security because:
+
+* they cannot be accessed directly by client-side JavaScript
+* they reduce exposure of authentication tokens in Cross-Site Scripting (XSS) scenarios
+* they provide a cleaner authentication flow for browser-based clients
+
+### Notes
+
+* for local development, cookie settings such as `Secure` may need adjustment depending on whether the API runs on HTTP or HTTPS
+* in production, `Secure = true` should be used with HTTPS
+* if the frontend is hosted on a different origin, additional cookie and CORS settings may be required
 
 ---
 
