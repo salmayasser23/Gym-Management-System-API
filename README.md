@@ -415,9 +415,7 @@ HTTP-only cookies improve security because:
 
 
 
-### Authorization
 
-<img width="808" height="351" alt="image" src="https://github.com/user-attachments/assets/36456616-f03c-483f-8b56-c8ffda432d54" />
 
 
 ### Create Trainer
