@@ -384,11 +384,7 @@ HTTP-only cookies improve security because:
 * they reduce exposure of authentication tokens in Cross-Site Scripting (XSS) scenarios
 * they provide a cleaner authentication flow for browser-based clients
 
-### Notes
 
-* for local development, cookie settings such as `Secure` may need adjustment depending on whether the API runs on HTTP or HTTPS
-* in production, `Secure = true` should be used with HTTPS
-* if the frontend is hosted on a different origin, additional cookie and CORS settings may be required
 
 ---
 
