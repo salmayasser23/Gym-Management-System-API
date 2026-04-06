@@ -410,7 +410,8 @@ HTTP-only cookies improve security because:
 ### Login Success
 
 <img width="1791" height="797" alt="Screenshot 2026-03-25 024224" src="https://github.com/user-attachments/assets/e30d163a-fa60-40d6-91d1-2765af7d6376" />
-<img width="1774" height="839" alt="Screenshot 2026-03-25 024248" src="https://github.com/user-attachments/assets/a8cad628-8015-4aea-a76b-971106e6234e" />
+<img width="1772" height="801" alt="image" src="https://github.com/user-attachments/assets/6b1aeb54-c717-4cd0-bdd7-e16d4c3e7672" />
+
 
 
 
